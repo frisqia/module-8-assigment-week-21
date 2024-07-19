@@ -1,4 +1,4 @@
-def TwoSum(arr):
+def two_sum(arr):
     target = arr[0]
     pairs = []
     for i in range(1, len(arr)):
@@ -9,4 +9,4 @@ def TwoSum(arr):
 
 
 arr = [7, 3, 5, 2, -4, 8, 11]
-print(TwoSum(arr))
+print(two_sum(arr))
